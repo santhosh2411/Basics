@@ -18,7 +18,7 @@ function validatePalin(string) {
     return isPalindrom;
 }
 
-const result = validatePalin("5235");
+const result = validatePalin("MALAYALAM");
 
 if (result) {
     console.log("Yes")

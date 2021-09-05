@@ -11,7 +11,6 @@ for (let i = 3; i < 15; i++) {
     for (let j = 2; j < i; j++) {
         if (i % j == 0) {
             ab = 1;
-            break;
         }
     }
     if (ab == 1) {
